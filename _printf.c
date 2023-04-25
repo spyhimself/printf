@@ -6,7 +6,6 @@
  *
  * Return: how many bytes were printed
  */
-
 int _printf(const char *format, ...)
 {
 	int sum = 0;
