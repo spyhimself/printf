@@ -69,7 +69,7 @@ typedef struct specifier
 /* _prinf.c module */
 int _printf(const char *format, ...);
 
-/* _put.c module */
+/* _putchar.c module */
 int _puts(char *str);
 int _putchar(int c);
 
