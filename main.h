@@ -35,7 +35,7 @@
  * @l_modifier: l_modifier is supplied, then
  *
  */
- 
+
 typedef struct parameters
 {
 	unsigned int unsign		: 1;
@@ -59,7 +59,7 @@ typedef struct parameters
  * @specifier: style token
  * @f: The corresponding role
  */
- 
+
 typedef struct specifier
 {
 	char *specifier;
