@@ -8,10 +8,10 @@
  *
  * Return: void
  */
- 
+
 int _puts(char *str)
 {
-	char *a = str;
+ 	char *a = str;
 
 	while (*str)
 		_putchar(*str++);
@@ -25,7 +25,7 @@ int _puts(char *str)
  * Return: On success 1.
  * On error, The value -1 is returned, and errno is suitably set.
  */
- 
+
 int _putchar(int c)
 {
 	static int i;
