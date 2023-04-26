@@ -6,7 +6,6 @@
  *
  * Return: 0 if not a digit, 1 if so
  */
-
 int _isdigit(int c)
 {
 	return (c >= '0' && c <= '9');
@@ -18,7 +17,6 @@ int _isdigit(int c)
  *
  * Return: string's integer length
  */
-
 int _strlen(char *s)
 {
 	int i = 0;
@@ -35,7 +33,6 @@ int _strlen(char *s)
  *
  * Return: character printed
  */
-
 int print_number(char *str, params_t *params)
 {
 	unsigned int i = _strlen(str);
@@ -67,7 +64,6 @@ int print_number(char *str, params_t *params)
  *
  * Return: character printed
  */
-
 int print_number_right_shift(char *str, params_t *params)
 {
 	unsigned int n = 0, neg, neg2, i = _strlen(str);
@@ -110,7 +106,6 @@ int print_number_right_shift(char *str, params_t *params)
  *
  * Return: print characters
  */
-
 int print_number_left_shift(char *str, params_t *params)
 {
 	unsigned int n = 0, neg, neg2, i = _strlen(str);
