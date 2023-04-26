@@ -7,7 +7,6 @@
  *
  * Return: numbers written in char
  */
-
 int print_char(va_list ap, params_t *params)
 {
 	char pad_char = ' ';
@@ -29,7 +28,6 @@ int print_char(va_list ap, params_t *params)
  *
  * Return: numbers written in char
  */
-
 int print_int(va_list ap, params_t *params)
 {
 	long l;
@@ -50,7 +48,6 @@ int print_int(va_list ap, params_t *params)
  *
  * Return: numbers written in char
  */
-
 int print_string(va_list ap, params_t *params)
 {
 	char *str = va_arg(ap, char *), pad_char = ' ';
@@ -92,7 +89,6 @@ int print_string(va_list ap, params_t *params)
  *
  * Return: numbers written in char
  */
-
 int print_percent(va_list ap, params_t *params)
 {
 	(void)ap;
@@ -107,7 +103,6 @@ int print_percent(va_list ap, params_t *params)
  *
  * Return: printed numbers in chars
  */
-
 int print_S(va_list ap, params_t *params)
 {
 	char *str = va_arg(ap, char *);
