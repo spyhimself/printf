@@ -8,7 +8,6 @@
  *
  * Return: new pointing device
  */
-
 char *get_precision(char *p, params_t *params, va_list ap)
 {
 	int l = 0;
